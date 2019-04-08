@@ -1,0 +1,145 @@
+/* Body Section*/
+body{
+    background-color: #ebebeb;    /* tad darker than the boxes */
+}
+
+/* NavBar attribs */
+.navbar{
+    max-height: 55px;
+    background-color: white; 
+    font-size: 15px; 
+}
+.navigation .navbar-brand{
+    color: white; 
+    margin-left: 30px; 
+    padding: inherit; 
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    background-color: #0BADA6;
+
+}
+
+.active, .dropdown-menu .dropdown-item:active a:hover{
+    background-color:#E8E8E8 !important; 
+}
+
+.dropdown-item{
+    color: #74889b !important; 
+}
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
+    background-color:#E8E8E8 !important; 
+}
+
+
+a{
+    color: #73889b;
+    font-size: 15px; 
+}
+
+
+.nav-link:hover{
+    background-color:#E8E8E8 !important;
+   }
+
+.navbar-brand:hover{
+color: #E8E8E8 !important;
+}
+
+
+/* Images */
+ 
+img{
+    width:100% !important;
+    height:100% !important;
+    text-align:center;
+}
+.active, .panel:hover{
+    border-color:#0BADA6;
+    border-style: solid; 
+}
+
+.panel:hover{
+    border-color:#0BADA6;
+    border-style: solid; 
+}
+
+.halfsize{
+    width:50% !important;
+    height:50% !important;
+}
+
+   /* My title Class  */
+.title{
+    color: #0BADA6;  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder; 
+    padding-top: 25px; 
+}
+
+/* My Paragraph attributes */
+p{
+    color: #617281;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px; 
+}
+
+/* My box class */
+.box {
+    margin-top: 60px; 
+    margin-bottom: 62px; 
+    padding: 10px 20px 15px; 
+    color:black;
+    background-color: white; 
+}
+
+/* Table Section */
+  .table{
+    font-size: 12px;     /* >12 too big?  */ 
+    border-top-color: white !important; 
+}
+
+/* Footer Section */
+footer{
+background-color: #575757; 
+border-top-style: solid; 
+border-top-width: 5px; 
+border-top-color: #0bad77;
+color: white; 
+min-height: 50px; 
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px; 
+text-align: center; 
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+padding-top: 10px; 
+}
+
+/* Media Queries Defs */
+@media(max-width: 1024px){
+.navbar-expand-lg{
+background-color: #0BADA6 !important;
+}
+.navbar{
+    max-height: none; 
+    padding: inherit;
+}
+.navbar div{
+    margin: inherit; 
+    background-color: white;  
+}
+.navbar-brand{
+    padding: 10px !important; 
+}
+
+button{
+    margin-right: 30px; 
+}
+button:focus {
+
+    outline: 1px dotted;
+    outline: 5px auto -webkit-focusring-color;
+    
+    }
+}
