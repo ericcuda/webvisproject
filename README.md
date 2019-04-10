@@ -10,7 +10,7 @@ Make a website dashboard of weather in 500+ cities at different latitudes.
 The visualizations will show latitude vs max temperature, humidity, cloudiness, and  
 wind speed.
 
-Project Web Page url:
+Project Web Page url (accessible to public to view content as web page):
 https://ericcuda.github.io/webvisproject/
 
 Project source code files repo:
