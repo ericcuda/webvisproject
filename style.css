@@ -3,6 +3,37 @@ body{
     background-color: #ebebeb;    /* tad darker than the boxes */
 }
 
+/* trying to make the table header sticky in BootStrap4*/
+
+/* .table thead {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 3em;
+    background: #eee;
+    table-layout: fixed;
+    display: table;
+} */
+
+
+/* Table Section */
+.table{
+    font-size: 13px;     /* >13 too big?  */ 
+    border-top-color: white !important;
+    width: 100%;
+}
+
+.table-responsive{
+    overflow-x:auto; 
+    overflow-y:auto; 
+    max-height:470px; 
+    max-width: auto;
+} 
+
+
 /* NavBar attribs */
 .navbar{
     max-height: 55px;
@@ -16,7 +47,6 @@ body{
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif; 
     background-color: #0BADA6;
-
 }
 
 .active, .dropdown-menu .dropdown-item:active a:hover{
@@ -68,6 +98,10 @@ img{
     height:50% !important;
 }
 
+/* .col-sm-6 {
+    width: 25%;
+} */
+
    /* My title Class  */
 .title{
     color: #0BADA6;  
@@ -92,11 +126,6 @@ p{
     background-color: white; 
 }
 
-/* Table Section */
-  .table{
-    font-size: 12px;     /* >12 too big?  */ 
-    border-top-color: white !important; 
-}
 
 /* Footer Section */
 footer{
