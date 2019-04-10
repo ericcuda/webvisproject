@@ -1,6 +1,6 @@
 # repo_website_webvis
 
-PROJECT NAME: Surfs Up  (Use html, css, bootstrap4, media queries)  
+PROJECT NAME: Web Visualization Via World Wide Web (Use html, css, bootstrap4, media queries)  
 DESCRIPTION: Data Analytics Boot Camp  
 DUE: 10Apr2019  
 PROGRAMMER:  Eric Staveley  MWSa Session  
